@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:habitos/model/list_habits.dart';
 import 'package:habitos/widgets/habit_card_widget.dart';
 import 'package:habitos/widgets/inkwell_navbar_widget.dart';
@@ -31,7 +32,9 @@ class HomeScreen extends StatelessWidget {
               horaFin: "00:09");
           },
         ),
-        floatingActionButton: FloatingActionButton(onPressed: (){},
+        floatingActionButton: FloatingActionButton(onPressed: (){
+          context.push('/add');
+        },
           elevation: 4,
           child: Icon(Icons.add_rounded),
         ),
