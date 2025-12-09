@@ -18,7 +18,7 @@ class _AddHabitScreenState extends State<AddHabitScreen> {
   TextEditingController controllerDesc = TextEditingController();
 
   IconData? selectedIcon;
-
+  //TODO: PARA MAÑANA
   //TODO: tap en la pantalla, bajamos teclado
   //TODO: resolver seleccion automatica en input "Habit Name"
   //TODO: resolver rselección automatica en Navbar
